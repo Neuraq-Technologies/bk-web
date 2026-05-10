@@ -1,0 +1,1 @@
+import{r as n,j as e}from"./index-Bu5ru1Kf.js";function r(){return n.useEffect(()=>{window.location.replace("/launch.html")},[]),e.jsx("div",{className:"flex min-h-screen items-center justify-center",style:{backgroundColor:"#fcfbf8"},children:e.jsx("p",{children:"Redirecting to launch..."})})}export{r as component};
