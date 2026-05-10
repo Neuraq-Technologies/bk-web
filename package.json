@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "node -e \"const fs=require('fs'); fs.copyFileSync('src/assets/vid-1.mp4', 'public/vid-1.mp4'); fs.copyFileSync('src/assets/zlaqa-bk.png', 'public/zlaqa-bk.png');\" && vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
